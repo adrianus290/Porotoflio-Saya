@@ -97,16 +97,16 @@ export const skillsData: Skill[] = [
 export const projectsData: Project[] = [
   {
     id: 1,
-    judul: "Website Portofolio",
+    judul: "Website Sistem Kampus",
     deskripsi:
-      "Membuat website portofolio sederhana yang menarik dan responsif menggunakan HTML, CSS dan Java Script",
-    github_link: "https://github.com/sputnix290/Website-portofolio",
-    gambar: "/projects/porto.jpg",
-    skills_raw: "HTML, CSS, JS",
+      "Sistem Informasi Akademik adalah aplikasi web yang dibangun menggunakan Laravel dan React untuk mengelola kegiatan akademik di lingkungan kampus. Sistem ini mendukung tiga peran pengguna, yaitu Admin, Dosen, dan Mahasiswa, dengan berbagai fitur seperti pengelolaan jadwal, presensi, nilai, pembayaran, autentikasi menggunakan Laravel Sanctum, dashboard yang responsif, serta integrasi dengan database MySQL.",
+    github_link: "https://github.com/adrianus290/Sistem-Kampus",
+    gambar: "projects/Login.png",
+    skills_raw: "Laravel, React, MySQL",
   },
   {
     id: 2,
-    judul: "ParkIt — Asisten Parkir Pintar Berbasis AI",
+    judul: "ParkIt Asisten Parkir Pintar Berbasis AI",
     deskripsi:
       "Mengembangkan aplikasi mobile lintas platform menggunakan Flutter dan GetX untuk memantau okupansi slot parkir motor secara real-time. Mengintegrasikan aplikasi dengan backend FastAPI yang menjalankan model deteksi objek YOLOv12 dan algoritma Adaptive Spatial-Gap Classification (ASB-PSC) untuk mendeteksi slot kosong secara dinamis berdasarkan dimensi kendaraan. Menerapkan koneksi aman menggunakan Cloudflare Tunnel dan Ngrok, serta mengelola persistensi data menggunakan MongoDB.",
     github_link: "https://github.com/sputnix290/Parkit-with-YOLO-and-Dart",
@@ -120,7 +120,7 @@ export const projectsData: Project[] = [
     deskripsi:
       "Merancang dan mensimulasikan jaringan kantor cabang logistik 2 lantai. Implementasi configurasi meliputi VLAN, DHCP, NAT, inter-VLAN routing, Trunking dan QoS. Berhasil menyelesaikan 3 masalah kritis jaringan: kegagalan DHCP, akses printer antar lantai, dan latency WAN.",
     github_link:
-      "https://drive.google.com/file/d/1k2NrVKO182Llk2s0Y0ac7gc9zGpU4ClM/view?usp=sharing",
+      "https://drive.google.com/file/d/1qocBbljrq9jPnMahKLYf-2Mq6blEGFHl/view?usp=sharing",
     gambar: "/projects/Screenshot_2026-06-25_015940.png",
     skills_raw: "VLAN, NAT, DHCP, Trunking, QoS, Wireshark",
   },
@@ -135,7 +135,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 5,
-    judul: "Website Klasifikasi Jenis Sampah",
+    judul: "Website Klasifikasi Sampah Berbasis AI",
     deskripsi:
       "Membangun pipeline Machine Learning hingga melatih model untuk melakukan klasifikasi gambar dari data primer sampah yang dikumpulkan secara mandiri. Melakukan preprocessing data mulai dari resize gambar, gray scale gambar flip dan rotasi gambar untuk memperkaya dataset. Melatih model dan melakukan evaluasi model dengan metrik untuk melihat akurasi model yang sudah dilatih, hasilnya model berhasil mendapatkan akurasi 97%. Mengembangkan aplikasi dengan mengintegrasikan model yang sudah dilatih dengan website yang dikembangkan dengan React.js, Django, dan Flask.",
     github_link:
